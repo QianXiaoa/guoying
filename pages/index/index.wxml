@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!--index.wxml登录自己的微信号-->
+=======
+﻿<!--index.wxml-->
+>>>>>>> 6f43baac043ec30214f16f5edfc63b2d270cf640
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
@@ -9,5 +13,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+cxx崔旭旭傻叉郭莹250
   </view>
 </view>
