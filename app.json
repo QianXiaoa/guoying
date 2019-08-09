@@ -1,6 +1,8 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index/index",
+    "pages/spdetail/spdetail",
     "pages/logs/logs"
   ],
   "window": {

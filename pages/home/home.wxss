@@ -1,0 +1,92 @@
+page{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: white;
+}
+/* 头部 */
+.header{
+  width: 100%;
+  padding: 48rpx 48rpx 36rpx 48rpx;
+  background: rgba(7, 17, 27, 0.5);
+  display: flex;
+}
+.hed-left{
+  width: 128rpx;
+  height: 128rpx;
+  margin-right: 32rpx;
+}
+.hed-left>image{
+  width: 100%;
+  height: 100%;
+  border-radius: 4rpx;
+}
+/* .hed-right{} */
+.right-one>image{
+  width: 55rpx;
+  height: 35rpx;
+  padding-top: 4rpx;
+  margin-right: 12rpx;
+  vertical-align: middle;
+}
+.right-one>text{
+  font-size: 32rpx;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 36rpx;
+}
+.right-two{
+  margin-top: 16rpx;
+  font-size: 24rpx;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  line-height: 24rpx;
+}
+.right-three{
+  height: 24rpx;
+}
+.right-three>image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 8rpx;
+  vertical-align: middle;
+}
+.right-three>text:nth-of-type(1){
+  font-size: 20rpx;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  line-height: 24rpx;
+}
+.right-three>text:nth-of-type(2){
+  font-size: 20rpx;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  line-height: 24rpx;
+  padding: 14rpx 16rpx;
+  height: 48rpx;
+  background: rgb(0, 0, 0,0.2);
+  border-radius: 30rpx;
+  margin-left: 150rpx;
+}
+/* 头部底部 */
+.header-bottom{
+  width: 100%;
+  /* height: 56rpx; */
+  background: rgba(7, 17, 27, 0.2);
+  padding: 8rpx 24rpx;
+}
+.header-bottom>image{
+  width: 55rpx;
+  height: 35rpx;
+  line-height: 56rpx;
+  margin-right: 8rpx;
+  vertical-align: middle;
+}
+.header-bottom>text{
+  display: inline-block;
+  font-size: 20rpx;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  line-height: 56rpx;
+  /* height: 56rpx; */
+}

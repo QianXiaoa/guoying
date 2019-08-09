@@ -1,0 +1,27 @@
+<view>
+  <!-- 头部 -->
+  <view>
+    <view class="header">
+      <view class="hed-left"><image src="../img/head/3.png"></image></view>
+      <view class="hed-right">
+        <view class="right-one">
+          <image src="../img/head/1.png"></image>
+          <text>粥品香坊（大运村）</text>
+        </view>
+        <view class="right-two">
+          蜂鸟专送 / 38分钟送达
+        </view>
+        <view class="right-three">
+          <image src="../img/head/2.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+          <text>5个 ></text>
+        </view>
+      </view>
+    </view>
+    <!-- 头部底部 -->
+    <view class="header-bottom">
+      <image src="../img/head/4.png"></image>
+      <text>粥品香坊其烹饪粥料的秘方源于中国千年古法，再融合现代制作工艺... ></text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,70 @@
+<!-- 商品详情页 -->
+<view class="box">
+  <view class="count">
+    <!-- 主图 -->
+    <view class="bunner"></view>
+    <!-- 模块一 -->
+    <view class="section1">
+      <view class="title">皮蛋瘦肉粥</view>
+      <view class="sell">
+        <text style="margin-right:24rpx;">月售1132份</text>
+        <text>好评率100%</text>
+      </view>
+      <view class="priceAll">
+        <text class="prices">
+          <text class="yang">￥</text>
+          <text class="price">24</text>
+        </text>
+        <text class="price2">￥28</text>
+      <button class="cart">加入购物车</button>
+      </view>
+    </view>
+    <!-- 模块二 -->
+    <view class="section2">
+      <view class="title">商品介绍</view>
+      <view class="content">亲爱哒，咱们家的合作快递遍布大江南北，
+      基本不是特别偏远的区域，都是可以配送到的哟</view>
+    </view>
+    <!-- 模块三 -->
+    <view class="section3">
+      <view class="module">
+        <view class="title">商品评价</view>
+        <view class="tab">
+          <text class="all">全部 <text class="font">57</text></text>
+          <text class="mend">推荐 <text class="font">47</text></text>
+          <text class="shits">吐槽 <text class="font">10</text></text>
+        </view>
+        <view class="assess">
+          <text class="ion1"></text>
+          <text class="assess-content">只看有评价的内容</text>
+        </view>
+      </view>
+      <!-- 评价的内容 -->
+      <view class="eval">
+        <view class="eval-count">
+          <view class="eval-content1">
+            <text class="time">2016-07-07 12:34</text>
+            <text>3*******<text class="total"></text></text>
+          </view>
+          <view class="matter">
+            <text class="good"></text>
+            <text class="detail">太少了，不够一个人吃！！</text>
+          </view>
+        </view>
+      </view>
+      <view class="eval">
+        <view class="eval-count">
+          <view class="eval-content1">
+            <text class="time">2016-07-07 12:34</text>
+            <text>3*******<text class="total"></text></text>
+          </view>
+          <view class="matter">
+            <text class="good"></text>
+            <text class="detail">太少了，不够一个人吃！！</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="foots"></view>
+</view>

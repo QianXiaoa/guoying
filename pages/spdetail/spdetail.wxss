@@ -1,0 +1,191 @@
+/* pages/spdetail/spdetail.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  background: #f3f5f7;
+  display: flex;
+  flex-direction: column;
+}
+/* 身体 */
+.count{
+  width: 100%;
+  flex-grow: 1;
+  overflow: auto;
+}
+/* 公共代码 */
+.section1,.section2,.section3{
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+  margin-bottom: 32rpx;
+  box-sizing: border-box;
+}
+.title{
+  font-size: 28rpx;
+  font-weight: 700;
+  color: rgb(7, 17, 27);
+  line-height: 28rpx;
+}
+/* 主图 */
+.bunner{
+  width: 100%;
+  height: 750rpx;
+  /* border: 1px solid black; */
+}
+/* 模块一 */
+.section1{
+  padding: 36rpx;
+}
+.sell{
+  margin:16rpx 0 36rpx 0;
+  font-size: 20rpx;
+  color: rgb(147, 153,159);
+  line-height: 20rpx;
+}
+.priceAll{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.prices{
+  color: rgb(240, 20, 20);
+  line-height: 48rpx;
+  margin-right: 24rpx;
+}
+.yang{
+  font-size: 20rpx;
+  font-weight: normal;
+}
+.price{
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.price2{
+  font-size: 20rpx;
+  font-weight: normal/700;
+  color: rgb(147, 153, 159);
+  line-height: 48rpx;
+  text-decoration: line-through;
+}
+.cart{
+  width: 148rpx;
+  height: 48rpx;
+  font-size: 20rpx;
+  color: rgb(255, 255, 255);
+  line-height: 24rpx;
+  border-radius: 24rpx;
+  background-color: rgb(0, 160,220); 
+  padding: 12rpx 24rpx;
+}
+/* 模块二 */
+.section2{
+  border-top: 1px solid rgba(7, 17, 27, 0.1);
+  padding: 36rpx;
+}
+.content{
+  font-size: 24rpx;
+  font-weight: 200;
+  color: rgb(77, 85, 93);
+  padding:0 16rpx;
+  line-height: 48rpx;
+  margin-top: 12rpx;
+}
+/* 模块三 */
+.section3{
+  margin-bottom: 0;
+}
+/* 商品评价 */
+.module{
+  padding: 36rpx 36rpx 0 36rpx;
+}
+.tab{
+  margin: 24rpx 0 36rpx 0;
+}
+.all,.mend,.shits{
+  font-size: 24rpx;
+  padding: 16rpx 24rpx;
+  line-height: 32rpx;
+  border-radius: 2rpx;
+  margin-right: 16rpx;
+}
+.font{
+  font-size: 16rpx;
+}
+.all{
+  background: rgb(0, 160, 220);
+  color: rgb(255, 255, 255);
+}
+.mend{
+  background: rgba(0, 160, 220, 0.2);
+  color: rgb(77, 85, 93);
+}
+.shits{
+  background: rgba(77, 85, 93, 0.2);
+  color: rgb(77, 85, 93);
+}
+/* 评价内容标题 */
+.assess{
+  padding: 24rpx 0;
+  line-height: 48rpx;
+  color: rgb(147, 153, 159);
+  border-top: 1px solid rgba(7, 17, 27,0.1);
+}
+.ion1{
+  margin-right: 8rpx;
+  font-size: 48/rpx;
+}
+.assess-content{
+  font-size: 24rpx;
+}
+/* 评价的内容 */
+.eval{
+  padding: 0 36rpx;
+  border-top: 1px solid rgba(7, 17, 27,0.1);
+}
+.eval-count{
+  padding: 32rpx 0;
+}
+.eval-content1{
+  margin-bottom: 12rpx;
+  font-size: 20rpx;
+  line-height: 24rpx;
+  color: rgb(157, 153, 159);
+  display: flex;
+  justify-content: space-between;
+}
+.time{
+  display: inline-block;
+  line-height: 24rpx;
+}
+.total{
+  display: inline-block;
+  width: 24rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+  border: 1px solid black;
+  border-radius: 50rpx;
+  margin-left: 12rpx;
+}
+.good{
+  font-size: 24rpx;
+  line-height: 48rpx;
+  color: rgb(147, 153, 159);
+}
+.detail{
+  margin-left: 8rpx;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  color: rgb(7, 17, 27);
+  border-bottom: rgba(7, 17, 27, 0.1);
+}
+/* 底部 */
+.foots{
+  width: 100%;
+  height: 116rpx;
+  background: #141d27;
+}
