@@ -9,6 +9,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-cxx
+cxx崔旭旭傻叉
   </view>
 </view>
