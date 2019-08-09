@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 <!--index.wxml登录自己的微信号-->
 =======
 ﻿<!--index.wxml-->
@@ -13,6 +13,5 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-cxx崔旭旭傻叉郭莹250
   </view>
 </view>
